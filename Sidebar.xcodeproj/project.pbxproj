@@ -12,6 +12,8 @@
 		8468C6421D2FCE95008FA619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468C6401D2FCE95008FA619 /* Main.storyboard */; };
 		8468C6441D2FCE95008FA619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8468C6431D2FCE95008FA619 /* Assets.xcassets */; };
 		8468C6471D2FCE95008FA619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468C6451D2FCE95008FA619 /* LaunchScreen.storyboard */; };
+		8468C64F1D2FCEFF008FA619 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468C64E1D2FCEFF008FA619 /* SideBarTableViewController.swift */; };
+		8468C6511D2FD42B008FA619 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468C6501D2FD42B008FA619 /* SideBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8468C6431D2FCE95008FA619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8468C6461D2FCE95008FA619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8468C6481D2FCE95008FA619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468C64E1D2FCEFF008FA619 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		8468C6501D2FD42B008FA619 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8468C63C1D2FCE95008FA619 /* AppDelegate.swift */,
 				8468C63E1D2FCE95008FA619 /* ViewController.swift */,
+				8468C64E1D2FCEFF008FA619 /* SideBarTableViewController.swift */,
+				8468C6501D2FD42B008FA619 /* SideBar.swift */,
 				8468C6401D2FCE95008FA619 /* Main.storyboard */,
 				8468C6431D2FCE95008FA619 /* Assets.xcassets */,
 				8468C6451D2FCE95008FA619 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8468C63F1D2FCE95008FA619 /* ViewController.swift in Sources */,
+				8468C64F1D2FCEFF008FA619 /* SideBarTableViewController.swift in Sources */,
+				8468C6511D2FD42B008FA619 /* SideBar.swift in Sources */,
 				8468C63D1D2FCE95008FA619 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
